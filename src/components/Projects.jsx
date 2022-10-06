@@ -8,6 +8,7 @@ export const Projects = () => {
 
             <h2 className="text-2xl text-center">Projects</h2>
             <p>The projects are interactive, try them!</p>
+            
 
             {/* javascript games */}
             <div className=" w-full sm:w-3/4 max-w-[30rem] flex flex-col justify-center items-center px-2">
