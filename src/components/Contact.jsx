@@ -1,7 +1,7 @@
 import { FaGithub, FaLinkedin, FaWhatsapp, FaMailBulk } from "react-icons/fa"
 
 export const Contact = () => (
-    <section className="w-full flex flex-col justify-between items-center gap-4 bg-blue-300 pt-4 pb-1">
+    <section className="w-full flex flex-col justify-between items-center gap-4 bg-blue-300 pt-4">
         <h2 className="text-2xl text-center">Contact</h2>
 
         <div className="flex justify-center items-center gap-8 text-2xl">
