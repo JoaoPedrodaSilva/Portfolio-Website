@@ -13,19 +13,19 @@ export const Projects = () => {
             <p>The projects are interactive, try them!</p>
             <a href="https://github.com/JoaoPedrodaSilva/" target="_blank" rel="noreferrer">Click here to check the codes</a>
 
-            <div className="w-full flex flex-col lg:flex-row gap-5 lg:gap-24 justify-center items-center">
+            <div className="w-full flex flex-col lg:flex-row gap-5 lg:gap-8 justify-center items-center">
 
                 {/* pern */}
                 <article className="w-full sm:w-3/4 max-w-[30rem] flex flex-col justify-center items-center p-2">
-                    <h2 className="text-center mt-5">PERN Stack + Tailwind / Craco</h2>
+                    <h2 className="text-center mt-5">PERN Stack + Tailwind</h2>
 
                     <select
                         className="w-full border border-gray-300 text-black rounded-lg p-1 my-2"
                         onChange={event => setPernProject(event.target.value)}
                     >
                         <option value="https://joaopedro-pern-milkshakes.netlify.app/">Milkshakes</option>
-                        {/* <option value="https://joaopedro-d3-scatterplot-graph.netlify.app/">ScatterPlot Graph</option>
-                        <option value="https://joaopedro-d3-heat-map.netlify.app/">Heat Map</option>
+                        <option value="https://joaopedro-pern-grocery-list.netlify.app/">Grocery List</option>
+                        {/* <option value="https://joaopedro-d3-heat-map.netlify.app/">Heat Map</option>
                         <option value="https://joaopedro-d3-tree-map.netlify.app/">Tree Map</option>
                         <option value="https://joaopedro-d3-line-chart.netlify.app/">Line Chart</option> */}
                     </select>
