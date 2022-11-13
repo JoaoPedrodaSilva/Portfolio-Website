@@ -25,8 +25,8 @@ export const Projects = () => {
                     >
                         <option value="https://joaopedro-pern-milkshakes.netlify.app/">Milkshakes</option>
                         <option value="https://joaopedro-pern-grocery-list.netlify.app/">Grocery List</option>
-                        {/* <option value="https://joaopedro-d3-heat-map.netlify.app/">Heat Map</option>
-                        <option value="https://joaopedro-d3-tree-map.netlify.app/">Tree Map</option>
+                        <option value="https://joaopedro-pern-income-line-chart.netlify.app/">Income Line Chart</option>
+                        {/* <option value="https://joaopedro-d3-tree-map.netlify.app/">Tree Map</option>
                         <option value="https://joaopedro-d3-line-chart.netlify.app/">Line Chart</option> */}
                     </select>
 
