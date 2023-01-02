@@ -28,7 +28,7 @@ export const Contact = () => (
         </div>
 
         <div className="w-full flex flex-col justify-between items-center bg-blue-600 text-white py-1">
-            <p>&copy;Copyright. João Pedro da Silva - 2022</p>
+            <p>&copy;Copyright. João Pedro da Silva - {new Date().getFullYear()}</p>
         </div>
     </section>
 )
