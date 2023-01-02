@@ -13,10 +13,11 @@ export const Projects = () => {
             <p>The projects are interactive, try them!</p>
             <a href="https://github.com/JoaoPedrodaSilva/" target="_blank" rel="noreferrer">Click here to check the codes</a>
 
-            <div className="w-full flex flex-col lg:flex-row gap-5 lg:gap-8 justify-center items-center">
+
+            <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-5 justify-center items-center lg:px-28 xl:px-72">
 
                 {/* pern */}
-                <article className="w-full sm:w-3/4 max-w-[30rem] flex flex-col justify-center items-center p-2">
+                <article className="w-full max-w-[500px] mx-auto flex flex-col justify-center items-center p-2">
                     <h2 className="text-center mt-5">PERN Stack + Tailwind</h2>
 
                     <select
@@ -28,11 +29,12 @@ export const Projects = () => {
                         <option value="https://joaopedro-pern-income-line-chart.netlify.app/">Income Line Chart</option>
                     </select>
 
-                    <iframe title="pern-iframe" className="w-full bg-white aspect-square rounded-lg" scrolling="no" src={pernProject} />
+                    <iframe title="pern-iframe" className="w-full bg-white aspect-[4/5] rounded-lg" scrolling="no" src={pernProject} />
                 </article>
 
+
                 {/* d3 data visualization */}
-                <article className="w-full sm:w-3/4 max-w-[30rem] flex flex-col justify-center items-center p-2">
+                <article className="w-full max-w-[500px] mx-auto flex flex-col justify-center items-center p-2">
                     <h2 className="text-center mt-5">D3 - Data Visualization</h2>
 
                     <select
@@ -46,13 +48,12 @@ export const Projects = () => {
                         <option value="https://joaopedro-d3-line-chart.netlify.app/">Line Chart</option>
                     </select>
 
-                    <iframe title="d3-iframe" className="w-full bg-white aspect-square rounded-lg" scrolling="no" src={d3Project} />
+                    <iframe title="d3-iframe" className="w-full bg-white aspect-[4/5] rounded-lg" scrolling="no" src={d3Project} />
                 </article>
 
-                
 
                 {/* javascript games */}
-                <article className=" w-full sm:w-3/4 max-w-[30rem] flex flex-col justify-center items-center p-2">
+                <article className=" w-full max-w-[500px] mx-auto flex flex-col justify-center items-center p-2">
                     <h2 className="text-center mt-5">Javascript Games</h2>
 
                     <select
@@ -66,11 +67,10 @@ export const Projects = () => {
                         <option value="https://joaopedro-javascript-frogger.netlify.app/">Frogger</option>
                     </select>
 
-                    <iframe title="javascript-games-iframe" className="w-full bg-white aspect-square rounded-lg" scrolling="no" src={jsProject} />
+                    <iframe title="javascript-games-iframe" className="w-full bg-white aspect-[4/5] rounded-lg" scrolling="no" src={jsProject} />
                 </article>
 
             </div>
-
         </section>
     )
 }

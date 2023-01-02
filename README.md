@@ -1,1 +1,1 @@
-Portfolio website of Joao Pedro Web Developer. Built with React and Tailwind.
+Portfolio website for Joao Pedro Web Developer. Built with React and Tailwind.
