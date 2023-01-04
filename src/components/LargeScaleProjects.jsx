@@ -12,9 +12,9 @@ export const LargeScaleProjects = () => (
 
             <div className="w-full lg:w-1/4 h-full flex flex-col justify-between gap-6 text-justify px-8 lg:px-0">
                 <div className='flex flex-col justify-center items-center lg:mb-10'>
-                    <h2 className="text-2xl text-center">Finanças e Fundamentos Project</h2>
+                    <h2 className="text-2xl text-center">Large Scale Project</h2>
                     <a href="https://github.com/JoaoPedrodaSilva/" target="_blank" rel="noreferrer">Click here to check the code</a>
-                    <p className='block lg:hidden text-xs text-center pt-2 pb-6'>Please, note the iframe displaying this project will only appear at desktops. If you are using small screen devices, click the link below and visit the webpage itself.</p>
+                    <p className='block lg:hidden text-xs text-center pt-2 pb-6 text-yellow-400'>Please, note the iframe displaying this project will only appear at desktops. If you are using small screen devices, click the link below and visit the webpage itself.</p>
                 </div>
                 <p><a
                         href="https://financasefundamentos.com.br/"
