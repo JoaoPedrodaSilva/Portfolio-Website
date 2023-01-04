@@ -1,7 +1,7 @@
 import { FaGithub, FaLinkedin, FaWhatsapp, FaMailBulk } from "react-icons/fa"
 
 export const Contact = () => (
-    <section className="w-full flex flex-col justify-between items-center gap-4 bg-blue-300 pt-4">
+    <section className="w-full flex flex-col justify-between items-center gap-4 bg-blue-600 text-white pt-6">
         <h2 className="text-2xl text-center">Contact</h2>
 
         <div className="flex justify-center items-center gap-8 text-2xl">
@@ -27,8 +27,8 @@ export const Contact = () => (
             <a href="https://wa.me/5513997250599" target='_blank' rel="noreferrer">+55 (13) 997250599</a>
         </div>
 
-        <div className="w-full flex flex-col justify-between items-center bg-blue-600 text-white py-1">
+        <footer className="w-full flex flex-col justify-between items-center py-1">
             <p>&copy;Copyright. João Pedro da Silva - {new Date().getFullYear()}</p>
-        </div>
+        </footer>
     </section>
 )

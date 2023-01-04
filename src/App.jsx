@@ -1,14 +1,16 @@
 import { Intro } from "./components/Intro"
 import { Knowledge } from "./components/Knowledge"
-import { Projects } from "./components/Projects"
+import { MinorProjects } from "./components/MinorProjects"
 import { Contact } from "./components/Contact"
+import { LargeScaleProjects } from "./components/LargeScaleProjects"
 
 export const App = () => (
-    <div>
+    <>
         <Intro />
         <Knowledge />
-        <Projects />
+        <LargeScaleProjects />
+        <MinorProjects />
         <Contact />
-    </div>
+    </>
 )
 
