@@ -7,7 +7,7 @@ export const LargeScaleProjects = () => (
             <iframe
                 title="financas-e-fundamentos-iframe"
                 className="hidden lg:flex w-full max-w-[610px] aspect-[4/5] rounded-lg"
-                src="https://financasefundamentos.com.br/"
+                src="https://financas-e-fundamentos.netlify.app/"
             />
 
             <div className="w-full lg:w-1/4 h-full flex flex-col justify-between gap-6 text-justify px-8 lg:px-0">
@@ -17,7 +17,7 @@ export const LargeScaleProjects = () => (
                     <p className='block lg:hidden text-xs text-center pt-2 pb-6 text-yellow-400'>Please, note the iframe displaying this project will only appear at desktops. If you are using small screen devices, click the link below and visit the webpage itself.</p>
                 </div>
                 <p><a
-                        href="https://financasefundamentos.com.br/"
+                        href="https://financas-e-fundamentos.netlify.app/"
                         target="_blank" rel="noreferrer"
                         className='underline cursor-pointer'
                     >Finanças e Fundamentos website
